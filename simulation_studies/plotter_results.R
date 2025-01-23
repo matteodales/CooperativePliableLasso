@@ -8,9 +8,6 @@ library(png)
 
 ## Script to generate the results for low and high dimensional simulation studies
 
-## Figures 6 and 7
-
-
 num_sims = 4
 
 filenames = c(
