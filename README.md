@@ -21,9 +21,11 @@ Once you've set up the environment with the older versions of R and GCC, you can
 
 ```R
 install.packages("pliable_1.1.1.tar.gz", repos = NULL, type="source")
+```
 
 #### Using the svreg Package (Alternative)
 Otherwise, the alternative implementation of pliable lasso in the <tt>svreg</tt> package by Kim et al. can be used. This package is fully implemented in R, and although it may increase computational time due to the lack of Fortran subroutines, it provides a valid alternative. The package can be installed from the available GitHub through the command
 
 ```R
 devtools::install_github("Tanya-Garcia-Lab/svreg")
+```
