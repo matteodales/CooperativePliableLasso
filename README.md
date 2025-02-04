@@ -9,12 +9,12 @@ Code relative to the article "Integrating Multiple Data Sources with Interaction
 
 Since the <tt>pliable</tt> package is no longer available on CRAN, a workaround is needed for its installation.
 
-#### Installing the Pliable Package via Workaround
+#### Installing the Pliable Package from CRAN archive
 
-You can install the <tt>pliable</tt> package for your work using the following workaround:
+You can install the <tt>pliable</tt> package by:
 
-- **Step 1:** Install an older version of R (R version 4.2 or earlier, can be found [here](https://cran.r-project.org/bin/windows/base/old/))and switch to it on RStudio from Global Options.
-- **Step 2:** Install an older version of GCC (GCC 8.4 for Windows and gfortran 8.2.0 for macOS) which can be found [here](https://ftp.gnu.org/gnu/gcc/). This is necessary because the <tt>pliable</tt> package relies on Fortran subroutines that are compatible with these versions of GCC.
+- **Step 1:** Installing an older version of R (R version 4.2 or earlier, can be found [here](https://cran.r-project.org/bin/windows/base/old/))and switch to it on RStudio from Global Options.
+- **Step 2:** Installing an older version of GCC (GCC 8.4 for Windows and gfortran 8.2.0 for macOS) which can be found [here](https://ftp.gnu.org/gnu/gcc/). This is necessary because the <tt>pliable</tt> package relies on Fortran subroutines that are compatible with these versions of GCC.
 - **Step 3:** Download pliable version 1.1.1 from the [CRAN archive](https://cran.r-project.org/src/contrib/Archive/pliable/)
 
 Once you've set up the environment with the older versions of R and GCC, you can install the <tt>pliable</tt> package using the standard R installation command:
